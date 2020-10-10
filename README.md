@@ -1,6 +1,6 @@
 # react-youtube-embed
 
-[![Build Status](https://travis-ci.org/n1ckdm/react-youtube-embed.svg?branch=master)](https://travis-ci.org/n1ckdm/react-youtube-embed)
+[![Build Status](https://travis-ci.org/n1ckdm/react-embed-youtube.svg?branch=master)](https://travis-ci.org/n1ckdm/react-embed-youtube)
 
 A responsive YouTube embed component for React.
 

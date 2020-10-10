@@ -5,7 +5,7 @@ cache:
 deploy:
   provider: npm
   email: me@nickdmartin.com
-  api_key: $NPM_TOKEN
+  api_key: $TRAVIS_TOKEN
   on:
     tags: true
   skip_cleanup: true
