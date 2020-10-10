@@ -1,0 +1,37 @@
+{
+  "name": "react-embed-youtube",
+  "version": "1.0.0",
+  "keywords": [
+    "react", 
+    "youtube",
+    "embed",
+    "responsive",
+    "start",
+    "stop"
+  ],
+  "main": "dist/index.js",
+  "author": "Nick Martin <me@nickdmartin.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n1ckdm/react-youtube-embed"
+  },
+  "license": "MIT",
+  "scripts": {
+    "analyze": "esca-scripts analyze --react --component --input ./src/index.js",
+    "build": "esca-scripts build --react --component --babel --input ./src/index.js --output ./dist/index.js",
+    "dev": "esca-scripts dev ---input './dev/dev.js, ./dev/index.html' --react --browser",
+    "prepublishOnly": "npm run build",
+    "reset": "esca-scripts reset",
+    "test": "echo 'no test'",
+    "travis": "opn https://travis-ci.org/github/n1ckdm/react-youtube-embed/branches"
+  },
+  "devDependencies": {
+    "esca-scripts": "^0.14.2",
+    "opn-cli": "^3.1.0",
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1"
+  },
+  "dependencies": {
+    "styled-jsx": "^2.2.4"
+  }
+}
